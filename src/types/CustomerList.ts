@@ -1,3 +1,5 @@
+import type { type } from "os";
+
 interface CustomerList {
     
         name: String,
@@ -9,4 +11,4 @@ interface CustomerList {
     
 }
 
-export default CustomerList;
+export type {CustomerList};

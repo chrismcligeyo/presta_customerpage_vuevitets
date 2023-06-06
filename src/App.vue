@@ -16,6 +16,7 @@
 
 import NAVBAR from "./components/NAVBAR.vue";
 import SEARCHFILTERTABLE from "./components/SEARCHFILTERTABLE.vue";
+import type {CustomerList} from "./types/CustomerList";
 
 
 
