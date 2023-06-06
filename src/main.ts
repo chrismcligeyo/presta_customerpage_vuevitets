@@ -1,6 +1,5 @@
 import './assets/css/main.css';
-//font awsome js. css in app.scss
-import '@fortawesome/fontawesome-free/js/all';
+
 
 
 import { createApp } from 'vue';
