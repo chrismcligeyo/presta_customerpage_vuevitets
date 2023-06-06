@@ -13,8 +13,14 @@
 </template>
 <script setup lang="ts">
 //import { RouterLink, RouterView } from 'vue-router'
+
 import NAVBAR from "./components/NAVBAR.vue";
 import SEARCHFILTERTABLE from "./components/SEARCHFILTERTABLE.vue";
+
+
+
+
+
 
 </script>
 
