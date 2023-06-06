@@ -16,7 +16,9 @@
     "autoprefixer": "^9.8.8",
     "pinia": "^2.0.36",
     "postcss": "^7.0.39",
+    "tailgrids": "^2.0.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "tw-elements": "^1.0.0-beta2",
     "vue": "^3.3.2",
     "vue-router": "^4.2.0"
   },
