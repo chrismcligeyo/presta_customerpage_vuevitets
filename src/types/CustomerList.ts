@@ -8,3 +8,5 @@ interface CustomerList {
         loan: Number
     
 }
+
+export default CustomerList;
