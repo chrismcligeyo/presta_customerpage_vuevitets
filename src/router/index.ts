@@ -18,11 +18,11 @@ const router = createRouter({
     //   component: () => import('../views/AboutView.vue')
     // }
 
-    //   {
-    //   path: '/customerlists',
-    //   name: 'customerlists',
-    //   component: CUSTOMERLISTS
-    // },
+      {
+      path: '/',
+      name: 'customerlists',
+      component: CUSTOMERLISTS
+    },
   ]
 })
 
