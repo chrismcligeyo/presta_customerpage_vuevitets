@@ -1,4 +1,5 @@
 import './assets/css/main.css';
+import "./axios"; //axios for baseurl
 
 // // Initialization for ES Users
 // import { Dropdown, Ripple, initTE } from "tw-elements";
