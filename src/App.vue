@@ -26,7 +26,8 @@ import type {CustomerList} from "./types/CustomerList";
 const customerlists = ref<CustomerList[]>([]);  //customerlists is an empty array of customerlist objects
 
 async function loadcuctomerlists(){
- const res = await axios.get("http://localhost:3000/api/customerlists");
+//  const res = await axios.get("http://localhost:3000/api/customerlists");
+const res = await axios.get("api/customerlists");
  
  console.log(res);
 
