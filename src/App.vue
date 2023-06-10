@@ -6,7 +6,8 @@
     <main class="bg-[#FFFFFF]">
       <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
         <!-- Your content -->
-        <CUSTOMERLISTS/>
+        <!-- <CUSTOMERLISTS/> -->
+        <router-view></router-view>
       </div>
     </main>
   </div>
@@ -26,6 +27,7 @@ const customerlists = ref<CustomerList[]>([]);  //customerlists is an empty arra
 
 async function loadcuctomerlists(){
  const res = await axios.get("api/customerlists");
+ 
  console.log(res);
 
 }
